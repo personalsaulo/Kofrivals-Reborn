@@ -3,9 +3,21 @@
  font-family: arial, helvetica, serif;
 }
 #master {
-	background-color: #000;
+	background-color: #d3d3d3;
 	width: 960px;
 	min-height: 100%;
+}
+#topo{
+	width: 728px;
+	height: 215px;
+	
+/*	background: url(imagens/banner2.jpg) no-repeat;*/
+}
+#imagem_topo {
+	-moz-border-radius: 25px;
+}
+#menu {
+		background-color: #000;
 }
 #menu ul {
 	list-style-type: none;
@@ -18,5 +30,6 @@
 }
 #rodape {
 	clear: both;
+	background-color: #000;
 }
 
