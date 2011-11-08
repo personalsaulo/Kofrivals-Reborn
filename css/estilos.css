@@ -1,0 +1,13 @@
+* {
+ color: #fff;
+ font-family: 'times new roman', helvetica, serif;
+}
+#master {
+	background-color: #000;
+	width: 960px;
+	height: 100px;
+}
+#rodape {
+	clear: both;
+}
+
