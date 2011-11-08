@@ -6,14 +6,15 @@
 	background-color: #d3d3d3;
 	width: 960px;
 	min-height: 100%;
+	margin: auto;
 }
 #topo{
-	width: 728px;
+	width: 100%;
 	height: 215px;
-	
 /*	background: url(imagens/banner2.jpg) no-repeat;*/
 }
 #imagem_topo {
+margin: 0 0 0 115px;
 	-moz-border-radius: 25px;
 }
 #menu {
@@ -26,7 +27,6 @@
 }
 #menu ul li {
 	display: inline;
-	
 }
 #rodape {
 	clear: both;
