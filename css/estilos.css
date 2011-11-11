@@ -3,33 +3,62 @@
  font-family: arial, helvetica, serif;
 }
 #master {
-	background-color: #d3d3d3;
+	/*background-color: #d3d3d3;*/
+	background-color: #000;
 	width: 960px;
 	min-height: 100%;
 }
 #topo{
 	width: 728px;
 	height: 215px;
-	
+	margin: auto;	
 /*	background: url(imagens/banner2.jpg) no-repeat;*/
 }
 #imagem_topo {
 	-moz-border-radius: 25px;
 }
-#menu {
-		background-color: #000;
-}
-#menu ul {
-	list-style-type: none;
-	padding: 0;
+#nav, #nav * {
 	margin: 0;
+	padding: 0;
 }
-#menu ul li {
-	display: inline;
-	
+#nav {
+		background-color: #000;
+		width: 728px;
+		float: left;
+		margin-left: 116px;
+}
+#nav li {
+	float: left;
+	list-style-type: none;
+}
+#nav li a {
+	display: block;
+	text-decoration: none;
+	margin-right: 50px;
+}
+#nav ul li {
+position: relative;
+}
+#nav ul li ul {
+	position: absolute;
+	/*left: 10em;*/
+	top: 20px;
+	padding-bottom: 15px;
+	display: none;
+}
+#nav ul li a {
+	display: block;
+}
+#nav ul li:hover ul, #nav ul li.over ul {
+	display: block;
+}
+#conteudo {
+/*Mudar quando colocar o gerenciador de noticias min-height:100%*/
+	height: 300px;
 }
 #rodape {
 	clear: both;
 	background-color: #000;
+	margin-left: 332px;
 }
 
