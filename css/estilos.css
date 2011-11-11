@@ -7,14 +7,19 @@
 	background-color: #000;
 	width: 960px;
 	min-height: 100%;
+	margin: auto;
 }
 #topo{
-	width: 728px;
+	width: 100%;
 	height: 215px;
+<<<<<<< HEAD
 	margin: auto;	
+=======
+>>>>>>> kofrivals/master
 /*	background: url(imagens/banner2.jpg) no-repeat;*/
 }
 #imagem_topo {
+	margin: 0 0 0 115px;
 	-moz-border-radius: 25px;
 }
 #nav, #nav * {
@@ -31,6 +36,7 @@
 	float: left;
 	list-style-type: none;
 }
+<<<<<<< HEAD
 #nav li a {
 	display: block;
 	text-decoration: none;
@@ -55,10 +61,17 @@ position: relative;
 #conteudo {
 /*Mudar quando colocar o gerenciador de noticias min-height:100%*/
 	height: 300px;
+=======
+#menu ul li {
+	display: inline;
+>>>>>>> kofrivals/master
 }
 #rodape {
 	clear: both;
 	background-color: #000;
 	margin-left: 332px;
+}
+#conteudo, #menu, #topo {
+	margin-bottom: 15px;
 }
 
