@@ -57,10 +57,10 @@ position: relative;
 #conteudo {
 /*Mudar quando colocar o gerenciador de noticias min-height:100%*/
 	min-height: 300px;
+	width: 730px;
 	border:#fff solid 10px;
-
-
 	float:left;
+	margin: 15px 115px 0 115px;
 	}
 #rodape {
 	clear: both;
