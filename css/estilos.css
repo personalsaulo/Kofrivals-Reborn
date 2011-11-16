@@ -16,7 +16,7 @@
 }
 #imagem_topo {
 	margin: 0 0 0 115px;
-	-moz-border-radius: 25px;
+
 }
 #nav, #nav * {
 	margin: 0;
@@ -62,6 +62,8 @@ position: relative;
 	border:#fff solid 2px;
 	float:left;
 	margin-left: 115px;
+	-moz-border-radius: 25px;
+	padding: 15px; 0 0 15px;
 	}
 #rodape {
 	clear: both;
